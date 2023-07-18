@@ -1,0 +1,77 @@
+﻿body {
+    border-block: solid;
+    border-width: thick;
+    background-image: url('images/waterfall.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    color: red;
+}
+
+header {
+    padding-top: 160px;
+    text-align: center;
+    color: snow;
+    font-size:40px;
+}
+
+nav hover {
+    color: black;
+    padding-bottom: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    font-size:30px;
+    color: red;
+    }
+
+nav ul li {
+    color: snow;
+    margin: 0 10px;
+    }
+
+h2{
+    font-size: 40px;
+    color: snow;
+    padding-top: 50px;
+    font: bold;
+    color: snow;
+}
+
+p {
+    font-size: 25px;
+    padding-top: 20px;
+    color: orange;
+}
+
+p2 {
+    font-family: Elephant;
+    font-size: 20px;
+    padding-top: 20px;
+    color: black;
+}
+
+p3{
+    font-size:50px;
+}
+
+.centered-article-content {
+    color: black;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    text-align: center
+}
+
+footer {
+    position:fixed;
+    text-align:center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
